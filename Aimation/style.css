@@ -1,0 +1,33 @@
+.container {
+background-color: pink;
+width: 40vw;
+height: 70vh;
+}
+.box {
+background-color: lightgreen;
+width: 5vw;
+height: 10vh;
+animation-name: Moinuddin;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(0.42, 0, 0, 1.18) ;
+}
+
+@keyframes Moinuddin {
+    0%{
+        transform: rotate(100deg);
+    }
+    20%{
+        transform: rotate(200px);
+    }
+    50%{
+        transform: rotate(220px);
+    }
+    
+    80%{
+        transform: rotate(300px);
+    }
+    100%{
+        transform: rotate(310px);
+    }
+}
