@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container  red green ">
+        <div id="box1" class="box" data-createdby="Moinuddin Qureshi" style="display: grid;">
+            Hii Moinuddin
+        </div>
+    </div>
+
+    <script>
+        // Insertion Element    
+        // let div=document.createElement("div")
+        // div.innerHTML="I have created <b> By Moinuddin</b>"
+        // div.setAttribute("class","created")
+        // document.querySelector(".container").append(div)
+
+        // let cont=document.querySelector(".container")
+        // cont.insertAdjacentHTML("afterbegin"  ,"Hiiiiiiiiiiiiiiiiiii")
+
+        // class name and class list
+
+        let con1=document.querySelector(".container").classList
+        console.log(con1)
+        let con2=document.querySelector(".container").className
+        console.log(con2)
+
+        let con3=document.querySelector(".container").classList.add("yellow")
+        console.log(con3)
+        let con4=document.querySelector(".container").classList.remove("yellow")
+        let con5=document.querySelector(".container").classList.replace("red","yellow")
+        let con6=document.querySelector(".container").classList.toggle("red")
+    </script>
+</body>
+
+</html>
